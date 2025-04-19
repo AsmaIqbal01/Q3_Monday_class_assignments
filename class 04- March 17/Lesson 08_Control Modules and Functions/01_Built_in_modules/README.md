@@ -37,11 +37,13 @@ import os
 print(os.name)                      # Output: 'posix' (Linux/Mac), 'nt' (Windows)
 print(os.getcwd())                  # Output: Current working directory
 os.mkdir("new_folder")              # Create a new folder
-🖥️ sys – System-specific info and control
-import sys
 
+🖥️ sys – System-specific info and control
+
+import sys
 print(sys.version)                  # Output: Python version
 print(sys.platform)                 # Output: OS platform (like 'win32', 'linux')
+
 ✅ Summary Table
 Module | Purpose | Example Functions
 math | Math operations | math.sqrt(), math.pi, factorial()
