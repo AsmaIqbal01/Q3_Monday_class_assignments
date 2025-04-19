@@ -45,8 +45,11 @@ print(sys.version)                  # Output: Python version
 print(sys.platform)                 # Output: OS platform (like 'win32', 'linux')
 
 ✅ Summary Table
-Module | Purpose | Example Functions
-math | Math operations | math.sqrt(), math.pi, factorial()
-random | Random number generation | random.randint(), random.choice()
-os | OS-level tasks (folders/files) | os.getcwd(), os.mkdir(), os.name
-sys | Python runtime environment | sys.version, sys.exit(), sys.platform
+| Module   | Purpose                          | Mutable | Example Functions                    |
+|----------|----------------------------------|---------|--------------------------------------|
+| math     | Math operations                  | No      | `math.sqrt()`, `math.pi`, `factorial()` |
+| random   | Random number generation         | No      | `random.randint()`, `random.choice()`  |
+| os       | OS-level tasks (folders/files)   | Yes     | `os.getcwd()`, `os.mkdir()`, `os.name` |
+| sys      | Python runtime environment       | No      | `sys.version`, `sys.exit()`, `sys.platform` |
+| time     | Time-related functions           | No      | `time.sleep()`, `time.time()`         |
+| datetime | Date and time manipulation       | Yes     | `datetime.datetime.now()`, `timedelta` |
