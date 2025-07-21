@@ -1,0 +1,2 @@
+file being created by x mode is overwritten now.
+Second line (appended).
